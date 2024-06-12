@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav a:hover {
+    color: lightcoral;
+}
+
+nav .active {
+    color: lightcoral;
+}
