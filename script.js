@@ -16,3 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+document.getElementById('toggle-bg').addEventListener('click', function() {
+    document.body.classList.toggle('night-mode');
+    var bgImage = document.querySelector('.bg img');
+    if (bgImage.src.includes('dia.jpg')) {
+        bgImage.src = 'archivos/noche.jpg';
+    } else {
+        bgImage.src = 'archivos/dia.jpg';
+    }
+});
+

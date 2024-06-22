@@ -7,28 +7,54 @@
     <link rel="stylesheet" href="secciones/style.css">
 </head>
 <body>
-    <div class="info">
-        <p>Texto de informacion</p>
+
+    <!-- Background -->
+
+    <div class="bg">
+        <img src="archivos/dia.jpg" alt="Imagen de Dia" width="100%" height="769px">
     </div>
+
+    <!-- Header -->
+
     <header>
         <div class="logo">
-            <p>Logo</p>
+            <img src="archivos/logo.png" alt="" height="60px">
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="pagina-1.html" id="productos-link">Contacto</a></li>
+                <li><a href="pagina-1.html">Contacto</a></li>
                 <li><a href="pagina-2.html">Lugares</a></li>
                 <li><a href="pagina-3.html">Pagina-3</a></li>
             </ul>
         </nav>
         <div class="iconos">
-            <p>Iconos</p>
+            <i id="toggle-bg" class="fa-solid fa-moon" style="font-size: 20px;"></i>
+            <i class="fa-solid fa-house" style="font-size: 20px;"></i>
+            <i class="fa-brands fa-github" style="font-size: 20px;"></i>
         </div>
     </header>
-    
-    <h1>Inicio</h1>
+
+    <!-- Seccion hero -->
+
+    <section class="hero">
+        <h4>Texto secundario chico</h4>
+        <h2>Explora las <br> mejores <span>bellas <br> del mundo</span></h2>
+        <button>Viajar</button>
+        <button class="btn2">Viajar 2</button>
+
+    </section>
+
+    <!-- Avion en movimiento -->
+
+    <div class="container-avion">
+        <img class="avion" src="archivos/avion.png" alt="" height="45px">
+        <div class="light" id="light"></div>
+
+    </div>
+
 
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d5c11db466.js" crossorigin="anonymous"></script>
 </body>
 </html>
