@@ -58,3 +58,29 @@ nav a:hover {
 nav .active {
     color: #0979b0;
 }
+
+img { 
+    margin-right: 10px;
+    float: left;
+    max-width: 500px;
+    border-radius: 10px;
+    
+}
+
+.contenedor2 { 
+    margin:34px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto2 h2 { 
+    font-size: 42px;
+}
+.texto2 p { 
+    padding: 1%;
+    border: 2px solid black;
+    background-color: rgb(180, 180, 180);
+    font-size: 16px;
+}
