@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
     if (page === 'pagina-3.html') {
         document.getElementById('pagina3-link').classList.add('active');
     }
+
+    if (page === 'pagina-4.html') {
+        document.getElementById('pagina4-link').classList.add('active');
+    }
 });
 
 document.getElementById('toggle-bg').addEventListener('click', function() {
