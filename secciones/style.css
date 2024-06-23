@@ -169,7 +169,7 @@ body.night-mode .avion {
 
 .bajar-flecha {
     position: absolute;
-    top: 100%;
+    top: 115%;
     left: 92%;
     transform: translateX(-50%);
     text-decoration: none;
