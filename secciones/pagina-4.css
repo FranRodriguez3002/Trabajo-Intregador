@@ -1,0 +1,97 @@
+/* fuentes y estilos por defecto de las secciones del proyecto */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    display: flex;
+    background-color: #0979b0;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 50px;
+    height: 80px;
+    width: 100%;
+    padding: 0 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+nav li {
+    gap: 50px;
+    height: 100%;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover {
+    color: #0979b0;
+}
+
+nav .active {
+    color: #0979b0;
+}
+.card {
+    /* estilos para posicionamiento y coloreo de las cards */
+    background-color: #0979b0;
+    border: 2px solid black;
+    width: 20%;
+     img {
+        max-width: 100%;
+        margin-top: 2%;
+        border-radius: 2%;
+        
+     }
+     .container {
+        background-color: white;
+        margin-bottom: 2%;
+        border-radius: 2%;
+     }
+}
+.row {
+    /* posicionamiento mas especifico de las cards */
+    display: flex;
+    justify-content: space-around;
+    .col {
+        margin: 0 1%;
+    }
+}
+/* posicionamiento mobile first */
+@media (width < 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .card {
+        width: 70%;
+        margin-left: auto;
+        margin-bottom: 2%;
+    }
+}
