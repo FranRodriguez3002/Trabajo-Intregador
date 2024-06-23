@@ -115,7 +115,7 @@ nav .active {
 .avion {
     transform: scaleX(-1);
     position: relative;
-    z-index: 1; /* Ensures the plane is below the text */
+    z-index: 1; 
 }
 
 .light {
@@ -124,9 +124,9 @@ nav .active {
     background-color: red;
     border-radius: 50%;
     position: absolute;
-    top: 6px; /* Adjust this to position the light correctly */
-    right: 54px; /* Adjust this to position the light correctly */
-    display: none; /* Initially hidden */
+    top: 6px; 
+    right: 54px; 
+    display: none; 
     z-index: 8;
 }
 

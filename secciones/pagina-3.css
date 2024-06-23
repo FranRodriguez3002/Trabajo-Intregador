@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+#map {
+    height: calc(90vh - 50px);
+    width: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -25,7 +30,6 @@ header {
     font-weight: bold;
     background-color: white;
     border-bottom: 1px solid #dfdfdf;
-    margin-bottom: 50px;
     height: 80px;
     width: 100%;
     padding: 0 80px;
