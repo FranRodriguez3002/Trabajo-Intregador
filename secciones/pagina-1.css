@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
 .info {
@@ -64,8 +65,7 @@ nav a:hover {
 nav .active {
     color: #0979b0;
 }
-<<<<<<< HEAD
-=======
+
 section {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -125,5 +125,4 @@ section {
 
 .contact-form-container button:hover {
     background-color: #218838;
->>>>>>> c029d6c93be55404d571b84b30b9e984c86bb126
 }
