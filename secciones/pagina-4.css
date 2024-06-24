@@ -104,3 +104,9 @@ nav .active {
         margin-bottom: 2%;
     }
 }
+
+.iconos {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}

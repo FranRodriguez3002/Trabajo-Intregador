@@ -58,3 +58,9 @@ nav a:hover {
 nav .active {
     color: #0979b0;
 }
+
+.iconos {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
