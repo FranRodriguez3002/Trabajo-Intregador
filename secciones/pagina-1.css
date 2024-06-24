@@ -116,7 +116,7 @@ section {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #28a745;
+    background-color: #0979b0;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -124,5 +124,5 @@ section {
 }
 
 .contact-form-container button:hover {
-    background-color: #218838;
+    background-color: #0b4461;
 }
