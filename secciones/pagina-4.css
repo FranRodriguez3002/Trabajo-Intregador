@@ -18,6 +18,10 @@ body {
     color: white;
 }
 
+.info p {
+    padding-top: 15px;
+}
+
 header {
     display: flex;
     align-items: center;
