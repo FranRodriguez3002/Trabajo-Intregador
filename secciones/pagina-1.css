@@ -31,6 +31,12 @@ header {
     padding: 0 80px;
 }
 
+.iconos {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -58,9 +64,66 @@ nav a:hover {
 nav .active {
     color: #0979b0;
 }
-
-.iconos {
+<<<<<<< HEAD
+=======
+section {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 22px);
+}
+
+.contact-form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form-container button:hover {
+    background-color: #218838;
+>>>>>>> c029d6c93be55404d571b84b30b9e984c86bb126
 }
