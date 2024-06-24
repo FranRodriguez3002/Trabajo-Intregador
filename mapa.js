@@ -5,14 +5,14 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map)
 
-var fishingRodIcon = L.icon({
+var RodIcon = L.icon({
     iconUrl: 'archivos/mapa.png',
     iconSize: [52, 52], 
     iconAnchor: [16, 32], 
     popupAnchor: [0, -32] 
 });
 
-var fishingSpots = [
+var Spots = [
     {
         name: "Lugar 1",
         coords: [-35.5808, -58.0167],
@@ -20,15 +20,15 @@ var fishingSpots = [
         image: "archivos/dia.jpg"
     },
     {
-        name: "Lugar 2",
-        coords: [-32.9495, -60.6473],
-        description: " Descripcion de lugar 2.",
-        image: "archivos/dia.jpg"
+        name: "Aeropuerto Ezeiza",
+        coords: [-34.812, -58.539],
+        description: "Aeropuerto Internacional.",
+        image: "https://img.remediosdigitales.com/93b528/ezeiza/450_1000.jpg"
     }
 ];
 
-fishingSpots.forEach(function(spot) {
-    L.marker(spot.coords, { icon: fishingRodIcon }).addTo(map)
+Spots.forEach(function(spot) {
+    L.marker(spot.coords, { icon: RodIcon }).addTo(map)
     .bindPopup(
         '<b>' + spot.name + '</b><br>' + 
         spot.description + '</b><br>' + '</b><br>' +

@@ -1,0 +1,39 @@
+.container-avion {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+.iconos {
+    display: none;
+}
+
+.botones {
+    
+}
+
+header {
+    justify-content: center;
+    gap: 10px;
+}
+
+nav ul {
+    gap: 15px;
+}
+
+.hero {
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.iconos-hero {
+    justify-content: center;
+}
+
+.bajar-flecha {
+    display: none;
+}

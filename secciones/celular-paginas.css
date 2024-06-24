@@ -1,0 +1,24 @@
+.logo {
+    display: none;
+}
+
+.iconos {
+    display: none;
+}
+
+header {
+    justify-content: center;
+}
+
+nav ul {
+    gap: 17px;
+    
+}
+
+.contenedor2 { 
+    text-align: center;
+}
+
+.contenedor2 img {
+    display: none;
+}
