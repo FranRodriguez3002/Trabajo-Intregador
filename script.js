@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
     if (page === 'pagina-4.html') {
         document.getElementById('pagina4-link').classList.add('active');
     }
+
+    if (localStorage.getItem('nightMode') === 'enabled') {
+        document.body.classList.add('night-mode');
+    }
 });
 
 document.getElementById('toggle-bg').addEventListener('click', function() {
@@ -27,6 +31,11 @@ document.getElementById('toggle-bg').addEventListener('click', function() {
         bgImage.src = 'archivos/noche.jpg';
     } else {
         bgImage.src = 'archivos/dia.jpg';
+    }
+    if (document.body.classList.contains('night-mode')) {
+        localStorage.setItem('nightMode', 'enabled');
+    } else {
+        localStorage.removeItem('nightMode');
     }
 });
 

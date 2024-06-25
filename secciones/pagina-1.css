@@ -126,3 +126,7 @@ section {
 .contact-form-container button:hover {
     background-color: #0b4461;
 }
+
+body.night-mode header {
+    background-color: #1E1E1E;
+}

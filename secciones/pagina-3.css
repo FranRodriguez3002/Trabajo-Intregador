@@ -68,3 +68,7 @@ nav .active {
     gap: 20px;
     cursor: pointer;
 }
+
+body.night-mode header {
+    background-color: #1E1E1E;
+}
